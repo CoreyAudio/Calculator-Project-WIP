@@ -6,11 +6,14 @@ int main()
 	// Timer Start
 	//auto start = std::chrono::high_resolution_clock::now();
 
-	calculator c;
+	Menu m;
+	m.BuildMenu();
+
+	/*calculator c;
 	c.ObtainNumbers();
 	double f = c.Math();
 	if(f != -1)
-		std::cout << "\nYour answer is: " << f << '\n';
+		std::cout << "\nYour answer is: " << f << '\n';*/
 
 	// Stop timer
 	//auto stop = std::chrono::high_resolution_clock::now();
